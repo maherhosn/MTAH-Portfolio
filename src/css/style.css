@@ -97,7 +97,7 @@
     background-blend-mode: soft;
     min-height: 20vh;
     color: var(--light);
-    padding: 1% 25%;
+    padding: 1% 40%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -111,10 +111,11 @@
   .hero-banner h3 {
     color: white;
     margin: 0;
-    padding: 10px 280px;
+    padding: 10px 0px;
     font-size: 2rem;
     line-height: 1.2;
     display: inline;
+    background-color: black;
     /* font-size: 40px; */
   }
   

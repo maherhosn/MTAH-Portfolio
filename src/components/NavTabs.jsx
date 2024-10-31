@@ -45,7 +45,7 @@ function NavTabs() {
                     </ul>
                 </nav>
             </header>
-            <div class="hero-banner">
+            <div className="hero-banner">
                 <h3>Software Engineer</h3>
             </div>
 

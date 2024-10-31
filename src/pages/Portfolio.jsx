@@ -27,22 +27,23 @@ export default function Portfolio() {
             repoLink: 'https://github.com/maherhosn/Project1'
         },
         {
-            description: 'run-buddy',
-            title: "The README Generator",
-            liveLink: 'https://github.com/maherhosn/The-README-Generator/blob/main/README.md',
-            repoLink: 'https://github.com/maherhosn/The-README-Generator'
-        },
-        {
             description: 'led-wall',
             title: "Employee-Tracker-Form",
             liveLink: 'https://github.com/maherhosn/Employee-Tracker-Form/blob/main/README.md',
             repoLink: 'https://github.com/maherhosn/Employee-Tracker-Form'
+        },
+        {
+            description: 'run-buddy',
+            title: "The README Generator",
+            liveLink: 'https://github.com/maherhosn/The-README-Generator/blob/main/README.md',
+            repoLink: 'https://github.com/maherhosn/The-README-Generator'
         },
         // Add more projects as needed
     ];
 
     const mapProjectsToHTML =
         projects.map((project) => (
+            // eslint-disable-next-line react/jsx-key
             <Project
                 title={project.title}
                 description={project.description}
@@ -53,8 +54,8 @@ export default function Portfolio() {
     // console.log(test);
 
     return (
-        <section className="project" class="page-section">
-            <article class="flex-container">
+        <section className="page-section">
+            <article className="flex-container">
                 {mapProjectsToHTML}
 
             </article>
