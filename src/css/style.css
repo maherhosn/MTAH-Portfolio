@@ -111,11 +111,11 @@
   .hero-banner h3 {
     color: white;
     margin: 0;
-    padding: -10px 280px;
-    font-size: 1.5rem;
+    padding: 10px 280px;
+    font-size: 2rem;
     line-height: 1.2;
     display: inline;
-    font-size: 40px;
+    /* font-size: 40px; */
   }
   
   .page-wrapper {
@@ -130,7 +130,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
     justify-content:center;
     background-color: black;
     font-size: 1.5vw;
@@ -159,25 +159,25 @@
   .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
   }
   
   .flex-item {
-    border: 5px solid var(--secondary);
+    /* border: 5px solid var(--secondary); */
     background-color: var(--primary);
-    color: var(--tertiary);
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
     display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
+    align-items: center;
+
     margin: 0.5em;
-    text-decoration: none;
+    text-decoration:wavy;
     background-blend-mode: soft-light;
-    background-size: 150%;
+    background-size: 100%;
     transition: all 0.5s;
-    font-size: 0.9rem;
+    font-size: 0.5rem;
+    color: white;
   }
   
   /* feature first portfolio item */
@@ -190,9 +190,28 @@
     background-color: rgba(0, 0, 0, 0.3);
   }
   
+  .flex-item a{
+color:blueviolet;
+justify-content: space-between;
+padding: 5px 5px;
+font-size:medium;
+  }
+
+.git::before{
+content: '👀';
+display:inline-flexbox;
+margin-left: 50px;
+}
+
+.live::before{
+content: '☁️';
+display:inline-flexbox;
+margin-left: 50px;
+}
+
   .flex-item div {
-    background-color: var(--secondary);
-    padding: 8px 10px;
+    background-color: var(--tertiary);
+    padding: 7px 30px;
   }
   
   .flex-item h3 {
@@ -229,6 +248,14 @@
   
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
+  .re-Rerating {
+    background-image: url("../css/images/reRating.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    flex-basis: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+  }
+
   .run-buddy {
     background-image: url("../css/images/run.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     flex-basis: 100%;

@@ -1,43 +1,63 @@
+import Project from '../components/Projects'
+
 export default function Portfolio() {
+    const projects = [
+        {
+            description: 'surf-report',
+            title: "Weather-5Day-Dashboard",
+            liveLink: 'https://weather-5day-dashboard.onrender.com/',
+            repoLink: 'https://github.com/maherhosn/Weather-5Day-Dashboard'
+        },
+        {
+            description: 're-Rerating',
+            title: "Fee Re-Rating Engine",
+            liveLink: 'https://patents.google.com/patent/US20230413021A1/en?oq=20230413021',
+            repoLink: 'https://patents.google.com/patent/US20230413021A1/en?oq=20230413021'
+        },
+        {
+            description: 'react-calc',
+            title: "Vehicle-Builder-Questionnaire",
+            liveLink: 'https://github.com/maherhosn/Vehicle-Builder-Questionnaire/blob/main/README.md',
+            repoLink: 'https://github.com/maherhosn/Vehicle-Builder-Questionnaire'
+        },
+        {
+            description: 'pastel-puzzles',
+            title: "JAM Laundry",
+            liveLink: 'https://maherhosn.github.io/Project1/',
+            repoLink: 'https://github.com/maherhosn/Project1'
+        },
+        {
+            description: 'run-buddy',
+            title: "The README Generator",
+            liveLink: 'https://github.com/maherhosn/The-README-Generator/blob/main/README.md',
+            repoLink: 'https://github.com/maherhosn/The-README-Generator'
+        },
+        {
+            description: 'led-wall',
+            title: "Employee-Tracker-Form",
+            liveLink: 'https://github.com/maherhosn/Employee-Tracker-Form/blob/main/README.md',
+            repoLink: 'https://github.com/maherhosn/Employee-Tracker-Form'
+        },
+        // Add more projects as needed
+    ];
+
+    const mapProjectsToHTML =
+        projects.map((project) => (
+            <Project
+                title={project.title}
+                description={project.description}
+                liveLink={project.liveLink}
+                repoLink={project.repoLink}
+            />
+        ))
+    // console.log(test);
+
     return (
-        <section class="page-section">
+        <section className="project" class="page-section">
             <article class="flex-container">
-                <section class="flex-item">
-                    <div>
-                        <h3>Weather-5Day-Dashboard</h3>
-                        <h4>Mern Stack</h4>
-                    </div>
-                    <img class="surf-report"></img>
-                </section>
-                <section class="flex-item">
-                    <div>
-                        <h3>Led Wall</h3>
-                        <h4>Node/IOT</h4>
-                    </div>
-                    <img class="led-wall"></img>
-                </section>
-                <section class="flex-item">
-                    <div>
-                        <h3>Calculator</h3>
-                        <h4>React/Javascript</h4>
-                    </div>
-                    <img class="react-calc"></img>
-                </section>
-                <section class="flex-item">
-                    <div>
-                        <h3>Pastel Puzzles</h3>
-                        <h4>Mern Stack</h4>
-                    </div>
-                    <img class="pastel-puzzles"></img>
-                </section>
-                <section class="flex-item">
-                    <div>
-                        <h3>Run Buddy</h3>
-                        <h4>HTML/CSS</h4>
-                    </div>
-                    <img class="run-buddy"></img>
-                </section>
+                {mapProjectsToHTML}
+
             </article>
         </section>
     );
-}
+};
