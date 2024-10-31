@@ -10,6 +10,7 @@
     --tertiary: rgba(49, 52, 61, 1);
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
+    background-color: black;
   }
   
   body {
@@ -17,7 +18,7 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--primary);
-    background-color: var(--light);
+    background-color: var(--dark);
     line-height: 1.5;
   }
   
@@ -41,17 +42,21 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--tertiary);
+    background-color: black;
     box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
   }
   
   header h1 {
-    color: var(--tertiary);
-    background-color: var(--secondary);
-    padding: 5px 1% 5px 6%;
-    margin: 0;
+    color: white;
+    background-color: black;
+    padding: 0px 0% 0px 2%;
+    margin: 50px;
     font-size: 4vw;
     line-height: 1;
+    border-radius: 10%;
+    text-decoration:underline;
+    text-align: right;
+
   }
   
   nav {
@@ -83,61 +88,63 @@
   }
   
   main {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 45px;
   }
   
   .hero-banner {
-    background: rgb(68, 88, 120);
-    background-image: url("../css/images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: soft-light;
-    min-height: 15vh;
+    background-image: url("https://media4.giphy.com/media/IcZhFmufozDCij3p22/200.webp?cid=ecf05e47nraa8s7r6k5lq311sq72p2bi0lfpfv52bx1stp8b&ep=v1_gifs_related&rid=200.webp&ct=g");
+    background-blend-mode: soft;
+    min-height: 20vh;
     color: var(--light);
-    padding: 2% 6%;
+    padding: 1% 25%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    text-align: right;
+    text-align: center;
   }
   
   .hero-banner div {
     flex: 0 0 90%;
   }
   
-  .hero-banner h2 {
-    background-color: var(--secondary);
-    color: var(--tertiary);
+  .hero-banner h3 {
+    color: white;
     margin: 0;
-    padding: 5px 10px;
-    font-size: 2.3rem;
+    padding: -10px 280px;
+    font-size: 1.5rem;
     line-height: 1.2;
     display: inline;
+    font-size: 40px;
   }
   
   .page-wrapper {
-    max-width: 88%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
   
   .page-section {
-    margin: 25px 0;
-    padding: 10px 0;
+    margin: 0px 0;
+    padding: 30px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+    font-size: 1.5vw;
+    font-style: italic;
+    color: white;
+
   }
   
   .page-section > h2 {
     flex: 0 0 20%;
-    text-align: right;
-    padding-right: 15px;
-    border-right: 4px solid var(--primary);
-    font-size: 4vw;
+    text-align: center;
+    padding-right: 10px;
+    border-left: 10px solid var(--primary);
+    font-size: 2vw;
     line-height: 1.1;
   }
   
@@ -287,6 +294,7 @@
     .page-section > h2,
     .page-section > div {
       flex: 0 0 100%;
+      font-size: x-large;
     }
   
     .page-section > h2 {
@@ -295,7 +303,7 @@
       margin-bottom: 20px;
       padding-bottom: 10px;
       text-align: left;
-      font-size: 7vw;
+      font-size: 4vw;
     }
   }
   
@@ -310,4 +318,5 @@
       min-height: 150px;
       max-height: 150px;
     }
+    
  } 

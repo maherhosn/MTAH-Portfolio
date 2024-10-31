@@ -47,10 +47,10 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </nav>
             </header>
             <div class="hero-banner">
-                <h3>System & Software Engineer</h3>
+                <h3>Software Engineer</h3>
             </div>
+            <body></body>
         </div>
     )
 }
-
 export default NavTabs;
