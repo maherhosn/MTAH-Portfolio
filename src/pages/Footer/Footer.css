@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    padding: 30px; /* Add padding to the footer */
+    background-color: black /* Optional: background color */
+}
+
+.icon-placeholder {
+    display: flex;
+    gap: 20px; /* Space between icons */
+    
+}
+
+.icon-placeholder a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Change icon color */
+    font-size: 24px; /* Adjust icon size */
+}
+.icon-placeholder a:hover {
+    color: #007bff; /* Change color on hover */
+}
+.fa-github::before{
+    content: '👀';
+}
+
+.fa-linkedin::before{
+    content: '➿';
+}
+
+.fa-stackOverflow::before{
+    content: '🌬️';
+}
+

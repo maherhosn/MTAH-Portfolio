@@ -48,7 +48,6 @@ function NavTabs() {
             <div className="hero-banner">
                 <h3>Software Engineer</h3>
             </div>
-
         </div>
     )
 }

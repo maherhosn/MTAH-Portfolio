@@ -1,0 +1,54 @@
+/* Contact.css */
+
+form {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px; /* Add some padding around the form */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Round the corners */
+    background-color:black; /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Make labels bold */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Make inputs full width */
+    padding: 10px; /* Add padding inside inputs */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Round the corners of inputs */
+    font-size: 16px; /* Font size for inputs */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+span {
+    color: red; /* Error message color */
+    font-size: 14px; /* Font size for error messages */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Round the corners of button */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Font size for button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

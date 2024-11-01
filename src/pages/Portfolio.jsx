@@ -16,7 +16,7 @@ export default function Portfolio() {
         },
         {
             description: 'react-calc',
-            title: "Vehicle-Builder-Questionnaire",
+            title: "Vehicle-Builder",
             liveLink: 'https://github.com/maherhosn/Vehicle-Builder-Questionnaire/blob/main/README.md',
             repoLink: 'https://github.com/maherhosn/Vehicle-Builder-Questionnaire'
         },
@@ -51,14 +51,14 @@ export default function Portfolio() {
                 repoLink={project.repoLink}
             />
         ))
-    // console.log(test);
 
     return (
         <section className="page-section">
+            <h1>Portfolio</h1>
             <article className="flex-container">
                 {mapProjectsToHTML}
 
             </article>
         </section>
     );
-};
+}
