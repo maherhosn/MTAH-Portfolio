@@ -1,4 +1,4 @@
-
+import myrResume from './ResumePage/Resume20241005.pdf'
 import './ResumePage/Resume.css'
 import './../css/style.css'
 
@@ -32,8 +32,8 @@ const Resume = () => {
         <div className="resume-section">
             <h1>Resume</h1>
             <h6>
-                <a href="https://redhawks-my.sharepoint.com/personal/aboulho3_seattleu_edu/Documents/Resume20241031%201.pdf" download>
-                    Download My Resume
+                <a href={myrResume} download="Resume20241005.pdf">
+                    <button>Download Resume</button>
                 </a>
             </h6>
             <div className='flex-resume'>

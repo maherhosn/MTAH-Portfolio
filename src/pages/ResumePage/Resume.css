@@ -7,13 +7,21 @@
     text-align: center;
     margin: 0.5em;
     max-width: 100%;
+    background-color: black;
     
 }
 
-
-.resume-section {
-    background-color: black;
+.resume-section button{
+background-color: var(--primary);
+transition: background-color 1s ease;
+border-radius: 10px;
 }
+
+.resume-section button:hover{
+    background-color: blue;
+    border-radius: 20px;
+}
+
 
 .resume-link {
     display: flex;
@@ -32,16 +40,11 @@
 
 .proficiency-list {
     display: flex;
-
-
     list-style-type: disc;
-    /* Remove default list styling */
     padding: 1%;
     background-color: var(--primary);
     margin: 0.5em;
     max-height: 100%;
-
-
     background-blend-mode: soft-light;
     border-radius: 10%;
     transition: all 0.5s;
@@ -49,8 +52,6 @@
     flex-wrap: wrap;
     flex: 0 0 50%;
     color:white;
-
-
 }
 
 .proficiency-list:hover {
