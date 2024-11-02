@@ -116,7 +116,6 @@
     line-height: 1.2;
     display: inline;
     background-color: black;
-    /* font-size: 40px; */
   }
   
   .page-wrapper {
@@ -164,14 +163,12 @@
   }
   
   .flex-item {
-    /* border: 5px solid var(--secondary); */
     background-color: var(--primary);
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: center;
-
     margin: 0.5em;
     text-decoration:wavy;
     background-blend-mode: soft-light;
@@ -181,11 +178,6 @@
     color: white;
   }
   
-  /* feature first portfolio item */
-  /* .flex-item:first-child {
-      min-height: 400px;
-      flex-basis: 100%;
-  } */
   
   .flex-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
@@ -246,40 +238,40 @@ font-size:medium;
     min-height: 100%;
   }
 
-  .run-buddy {
-    background-image: url("../css/images/run.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  .readMeGen {
+    background-image: url("../css/images/readMeGen.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     flex-basis: 100%;
     background-size: cover;
     background-position: center;
     min-height: 100%;
   }
   
-  .led-wall {
-    background-image: url("../css/images/ledWall.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  .eTracker {
+    background-image: url("../css/images/eTracker.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     flex-basis: 100%;
     background-size: cover;
     background-position: center;
     min-height: 100%;
   }
   
-  .react-calc {
-    background-image: url("../css/images/calc.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  .vehicleB {
+    background-image: url("../css/images/vehicleB.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     flex-basis: 100%;
     background-size: cover;
     background-position: center;
     min-height: 100%;
   }
   
-  .pastel-puzzles {
-    background-image: url("../css/images/puzzle.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  .jamLaundry {
+    background-image: url("../css/images/jamLaundry.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     flex-basis: 100%;
     background-size: cover;
     background-position: center;
     min-height: 100%;
   }
   
-  .surf-report {
-    background-image: url("../css/images/surf.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  .weather {
+    background-image: url("../css/images/weather.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     flex-basis: 100%;
     background-size: cover;
     background-position: center;

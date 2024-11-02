@@ -3,7 +3,7 @@ import Project from '../components/Projects'
 export default function Portfolio() {
     const projects = [
         {
-            description: 'surf-report',
+            description: 'weather',
             title: "Weather-5Day-Dashboard",
             // liveLink: 'https://weather-5day-dashboard.onrender.com/',
             repoLink: 'https://github.com/maherhosn/Weather-5Day-Dashboard'
@@ -15,25 +15,25 @@ export default function Portfolio() {
             // repoLink: 'https://patents.google.com/patent/US20230413021A1/en?oq=20230413021'
         },
         {
-            description: 'react-calc',
+            description: 'vehicleB',
             title: "Vehicle-Builder",
             // liveLink: 'https://github.com/maherhosn/Vehicle-Builder-Questionnaire/blob/main/README.md',
             repoLink: 'https://github.com/maherhosn/Vehicle-Builder-Questionnaire'
         },
         {
-            description: 'pastel-puzzles',
+            description: 'jamLaundry',
             title: "JAM Laundry",
             // liveLink: 'https://maherhosn.github.io/Project1/',
             repoLink: 'https://github.com/maherhosn/Project1'
         },
         {
-            description: 'led-wall',
+            description: 'eTracker',
             title: "Employee-Tracker-Form",
             // liveLink: 'https://github.com/maherhosn/Employee-Tracker-Form/blob/main/README.md',
             repoLink: 'https://github.com/maherhosn/Employee-Tracker-Form'
         },
         {
-            description: 'run-buddy',
+            description: 'readMeGen',
             title: "The README Generator",
             // liveLink: 'https://github.com/maherhosn/The-README-Generator/blob/main/README.md',
             repoLink: 'https://github.com/maherhosn/The-README-Generator'
