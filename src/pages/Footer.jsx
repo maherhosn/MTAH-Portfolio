@@ -1,20 +1,18 @@
-import './Footer/Footer.css'
+import './Footer/Footer.css';
+import { SiGithub, SiLinkedin, SiStackoverflow } from 'react-icons/si';
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="icon-placeholder">
                 <a href="https://github.com/maherhosn?tab=repositories" rel="noopener noreferrer">
-                    <i className="fa-github"></i>
-                    github
+                    <SiGithub  size={30} />
                 </a>
                 <a href="https://www.linkedin.com/in/maher-aboul-hosn/" rel="noopener noreferrer">
-                    <i className="fa-linkedin"></i>
-                    LinkedIn
+                    <SiLinkedin  size={30} />
                 </a>
                 <a href="https://stackoverflow.com/?newreg=13d04bac495b4125950a61341bc37f1d" rel="noopener noreferrer">
-                    <i className="fa-stackOverflow"></i>
-                    StackOverFlow
+                    <SiStackoverflow  size={30} />
                 </a>
             </div>
         </footer>

@@ -6,7 +6,7 @@ MTAH stands for Maher Talal AboulHosn<br>This application provides a full portfo
 ## Table Of Contents:
 - [Installation Guide](#installation-guide)
 - [Usage](#usage)
--	[License](#license)
+- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)

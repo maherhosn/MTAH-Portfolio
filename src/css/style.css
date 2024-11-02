@@ -198,17 +198,6 @@ padding: 5px 5px;
 font-size:medium;
   }
 
-.git::before{
-content: '👀';
-display:inline-flexbox;
-margin-left: 50px;
-}
-
-.live::before{
-content: '☁️';
-display:inline-flexbox;
-margin-left: 50px;
-}
 
   .flex-item div {
     background-color: var(--tertiary);

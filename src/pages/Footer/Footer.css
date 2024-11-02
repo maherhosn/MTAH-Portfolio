@@ -19,15 +19,5 @@
 .icon-placeholder a:hover {
     color: #007bff; /* Change color on hover */
 }
-.fa-github::before{
-    content: '👀';
-}
 
-.fa-linkedin::before{
-    content: '➿';
-}
-
-.fa-stackOverflow::before{
-    content: '🌬️';
-}
 

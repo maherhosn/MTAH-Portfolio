@@ -5,37 +5,37 @@ export default function Portfolio() {
         {
             description: 'surf-report',
             title: "Weather-5Day-Dashboard",
-            liveLink: 'https://weather-5day-dashboard.onrender.com/',
+            // liveLink: 'https://weather-5day-dashboard.onrender.com/',
             repoLink: 'https://github.com/maherhosn/Weather-5Day-Dashboard'
         },
         {
             description: 're-Rerating',
             title: "Fee Re-Rating Engine",
             liveLink: 'https://patents.google.com/patent/US20230413021A1/en?oq=20230413021',
-            repoLink: 'https://patents.google.com/patent/US20230413021A1/en?oq=20230413021'
+            // repoLink: 'https://patents.google.com/patent/US20230413021A1/en?oq=20230413021'
         },
         {
             description: 'react-calc',
             title: "Vehicle-Builder",
-            liveLink: 'https://github.com/maherhosn/Vehicle-Builder-Questionnaire/blob/main/README.md',
+            // liveLink: 'https://github.com/maherhosn/Vehicle-Builder-Questionnaire/blob/main/README.md',
             repoLink: 'https://github.com/maherhosn/Vehicle-Builder-Questionnaire'
         },
         {
             description: 'pastel-puzzles',
             title: "JAM Laundry",
-            liveLink: 'https://maherhosn.github.io/Project1/',
+            // liveLink: 'https://maherhosn.github.io/Project1/',
             repoLink: 'https://github.com/maherhosn/Project1'
         },
         {
             description: 'led-wall',
             title: "Employee-Tracker-Form",
-            liveLink: 'https://github.com/maherhosn/Employee-Tracker-Form/blob/main/README.md',
+            // liveLink: 'https://github.com/maherhosn/Employee-Tracker-Form/blob/main/README.md',
             repoLink: 'https://github.com/maherhosn/Employee-Tracker-Form'
         },
         {
             description: 'run-buddy',
             title: "The README Generator",
-            liveLink: 'https://github.com/maherhosn/The-README-Generator/blob/main/README.md',
+            // liveLink: 'https://github.com/maherhosn/The-README-Generator/blob/main/README.md',
             repoLink: 'https://github.com/maherhosn/The-README-Generator'
         },
         // Add more projects as needed
