@@ -230,6 +230,14 @@ font-size:medium;
   
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
+  .employeeFinder {
+    background-image: url("../css/images/employeeFinder.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    flex-basis: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+  }
+
   .re-Rerating {
     background-image: url("../css/images/reRating.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     flex-basis: 100%;
