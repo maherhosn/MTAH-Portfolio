@@ -3,6 +3,12 @@ import Project from '../components/Projects'
 export default function Portfolio() {
     const projects = [
         {
+            description: 'employeeFinder',
+            title: "Employee-Finder",
+            liveLink: 'https://gitemployeefinder.netlify.app',
+            repoLink: 'https://github.com/maherhosn/Employee-Finder'
+        },
+        {
             description: 'weather',
             title: "Weather-5Day-Dashboard",
             // liveLink: 'https://weather-5day-dashboard.onrender.com/',
