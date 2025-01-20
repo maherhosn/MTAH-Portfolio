@@ -166,7 +166,7 @@
     background-color: var(--primary);
     min-height: 150px;
     max-height: 150px;
-    flex-basis: calc(50% - 1em);
+    flex-basis: calc(33% - 1em);
     display: flex;
     align-items: center;
     margin: 0.5em;
@@ -280,6 +280,46 @@ font-size:medium;
   
   .weather {
     background-image: url("../css/images/weather.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    flex-basis: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+  }
+
+  .wordGuess {
+    background-image: url("../css/images/wordGuess.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    flex-basis: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+  }
+
+  .jimkConnect4 {
+    background-image: url("../css/images/jimkConnect4.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    flex-basis: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+  }
+
+  .playlistPersona {
+    background-image: url("../css/images/playlistPersona.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    flex-basis: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+  }
+
+  .kanBanBoard {
+    background-image: url("../css/images/kanBanBoard.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    flex-basis: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+  }
+
+  .bookSmart {
+    background-image: url("../css/images/bookSmart.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     flex-basis: 100%;
     background-size: cover;
     background-position: center;

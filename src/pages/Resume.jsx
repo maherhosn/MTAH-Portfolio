@@ -1,17 +1,22 @@
-import myrResume from './ResumePage/Resume20241005.pdf'
+import myrResume from './ResumePage/Resume20250120.pdf'
 import './ResumePage/Resume.css'
 import './../css/style.css'
 
 const Resume = () => {
     const frontEndProficiencies = [
         'JavaScript',
+        'Typescript',
         'React',
+        'Redux',
         'HTML',
         'XML',
         'CSS',
         'Git',
         'Java',
         'C#',
+        'Python',
+        'Material-UI',
+        'Bootstrap'
     ];
 
     const backEndProficiencies = [
@@ -19,11 +24,15 @@ const Resume = () => {
         'RESTful APIs',
         'PostgreSQL',
         'MySQL',
+        'MongoDB',
         'Express',
-        'BASH scripting',
-        'Shell scripting',
+        'Cypress',
+        'BASH/Shell scripting',
         'Unix/Linix Administration',
         'Version Control with CICD depoloyment',
+        'CircleCI',
+        'gitHub Actions',
+        'AWS',
         'Containerization / Kubernetes',
         'Geo-Redundancy Configuration'
     ];
@@ -32,7 +41,7 @@ const Resume = () => {
         <div className="resume-section">
             <h1>Resume</h1>
             <h6>
-                <a href={myrResume} download="Resume20241005.pdf">
+                <a href={myrResume} download="Resume20250120.pdf">
                     <button>Download Resume</button>
                 </a>
             </h6>

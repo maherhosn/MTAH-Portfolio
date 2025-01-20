@@ -1,8 +1,7 @@
-// I used the help of Xpert Learning Assistance to write the below code... 
-
 import { useState } from 'react';
-import './ContactPage/Contact.css'
-import './../css/style.css'
+import './ContactPage/Contact.css';
+import './../css/style.css';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const [name, setName] = useState('');
@@ -47,19 +46,33 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // Log the values to the console
-        console.log('Name:', name);
-        console.log('Email:', email);
-        console.log('Message:', message);
+        // Validate form before sending
+        if (!name || !email || !message) {
+            return; // Prevent submission if there are errors
+        }
 
-        // Set confirmation message
-        setConfirmation('Thank you for your message!');
+        // Send email using EmailJS
+        const serviceID = 'service_hfxm2r9';
+        const templateID = 'template_wekk61m';
+        const userID = 'Gi_-7Q-DlEPj44jk3';
 
-        // Optionally, clear the form fields
-        setName('');
-        setEmail('');
-        setMessage('');
-
+        emailjs.send(serviceID, templateID, {
+            name,
+            email,
+            message,
+        }, userID)
+        .then((response) => {
+            console.log('Email sent successfully!', response.status, response.text);
+            setConfirmation('Thank you for your message!');
+            // Optionally, clear the form fields
+            setName('');
+            setEmail('');
+            setMessage('');
+        })
+        .catch((err) => {
+            console.error('Failed to send email. Error: ', err);
+            setConfirmation('There was an error sending your message. Please try again.');
+        });
     };
 
     return (
